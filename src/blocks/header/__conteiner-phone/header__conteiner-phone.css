@@ -1,0 +1,12 @@
+@media screen and (max-width: 615px) {
+  .header__conteiner-phone {
+    display: block;
+    box-sizing: border-box;
+    max-width: 100%;
+    /* border-top: 1px solid #545454b3; */
+  }
+
+  .header_block {
+    display: none;
+  }
+}

@@ -1,0 +1,21 @@
+.header__row {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+  align-items: center;
+}
+
+.header__conteiner-phone {
+  display: none;
+}
+
+@media screen and (max-width: 615px) {
+  .header__row {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    color: #fff;
+    align-items: center;
+  }
+}

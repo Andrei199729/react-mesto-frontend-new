@@ -1,0 +1,23 @@
+.profile__edit-pencile {
+  display: none;
+  width: 26px;
+  height: 26px;
+  background-image: url("../../../images/editavatar.svg");
+  background-size: 26px 26px;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 46px;
+  bottom: 76px;
+  transition: opacity 0.2s linear;
+}
+
+.profile__edit-pencile:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 615px) {
+  .profile__edit-pencile {
+    left: 48px;
+    bottom: 102px;
+  }
+}
