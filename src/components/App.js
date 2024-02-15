@@ -163,6 +163,7 @@ function App() {
       .authorization(formData.email, formData.password)
       .then((data) => {
         if (data.token) {
+          console.log(data);
           localStorage.setItem("token", data.token);
           setLoggedIn(true);
           setEmail(formData.email);
